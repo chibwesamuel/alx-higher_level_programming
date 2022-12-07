@@ -11,5 +11,5 @@ def square_matrix_simple(matrix=[]):
     ]
 
     new_matrix = square_matrix_simple(matrix)
-    print(new_matrix\n)
-    #print(matrix)
+    print(new_matrix)
+    print(matrix)
