@@ -1,7 +1,4 @@
-#!/usr/bin/python3
-#File: 1-square.py
-#Auth: Samuel Chibwe
-"""defines a square by: (based on 0-square.py)."""
+#!/usr/bin/python3"""defines a square by: (based on 0-square.py)."""
 
 class Square:
     """Represent a square."""

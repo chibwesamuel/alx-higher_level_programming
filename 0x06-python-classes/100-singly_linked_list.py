@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# File: 100-singly_linked_list.py
-# Auth: Samuel Mukosa Chibwe
 """Define classes for a singly-linked list."""
 
 

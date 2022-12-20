@@ -1,6 +1,4 @@
 #!/usr/bin/python3
-# File: 101-square.py
-# Auth: Samuel Mukosa Chibwe
 """Define a class Square."""
 
 
