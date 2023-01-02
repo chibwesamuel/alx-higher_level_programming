@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-# Samuel Mukosa Chibwe
 """Defines an empty Rectangle class"""
 
 class Rectangle:
