@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author: Samuel Mukosa Chibwe
+# Samuel Mukosa Chibwe
 """Defines an empty Rectangle class"""
 
 class Rectangle:
