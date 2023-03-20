@@ -3,14 +3,13 @@
 # Usage: ./0-select_states.py <mysql username> \
 #                             <mysql password> \
 #                             <database name>
+"""python3 -c 'print(__import__("my_module").__doc__)'
+"""
 import sys
 import MySQLdb
-"""
-python3 -c 'print(__import__("my_module").__doc__)'
-"""
 
 if __name__ == "__main__":
     db = MySQLdb.connect(username=sys.argv[1], password=sys.argv[2], database=sys.argv[3])
     c = db.cursor()
-    c.execute("SELECT * FROM `states`")
+    c.execute("SELECT * FROM `states` order by `states.id`")
     [print(state) for state in c.fetchall()]
