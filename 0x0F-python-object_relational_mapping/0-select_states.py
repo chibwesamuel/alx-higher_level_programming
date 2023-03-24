@@ -8,7 +8,11 @@ import MySQLdb
 
 if __name__ == "__main__":
     """python3 -c 'print(__import__("my_module").__doc__)' """
-    db = MySQLdb.connect(username=sys.argv[0], passwd=sys.argv[1], db=sys.argv[2])
-    c = db.cursor()
-    c.execute("SELECT * FROM states ORDER BY states.id")
-    [print(state) for state in c.fetchall()]
+    conn = MySQLdb.connect(host="localhost", port=3306, user=argv[1],
+            passwd=argv[2], db=argv[3])cur = conn.cursor()
+    cur.execute("SELECT * FROM states ORDER BY id ASC")
+    rows = cur.fetchall()
+    for row in rows:
+        print(row)
+    cur.close()
+    conn.close()d
