@@ -4,7 +4,7 @@ Displays the value of X-Request-Id of URL in response to request
 
 Usage: ./5-hbtn_header.py https://alx-intranet.hbtn.io
 """
-import urllib.requests
+import requests
 import sys
 
 if __name__ == "__main__":
