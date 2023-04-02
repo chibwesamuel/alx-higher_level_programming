@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """ Fetches a given url"""
 import requests
+import urllib
 
 
 if __name__ == "__main__":
