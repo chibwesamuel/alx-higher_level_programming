@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 """ Fetches a given url"""
-import requests
 import urllib
 
 
