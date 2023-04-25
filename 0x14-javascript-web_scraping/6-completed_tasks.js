@@ -1,4 +1,5 @@
 #!/usr/bin/node
+// Computes the number of tasks completed by the user
 const request = require('request');
 request(process.argv[2], function (error, response, body) {
 	if (!error) {

@@ -1,5 +1,5 @@
 #!/usr/bin/node
-"""Prints characters of a star wars movie"""
+//Prints characters of a star wars movie
 const request = require('request');
 const url = 'https://swapi.co/api/films/' + process.argv[2];
 request(url, function (error, response, body) {
